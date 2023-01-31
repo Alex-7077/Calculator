@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
         public static void main (String[]args){
 
-            System.out.println("Welcom to Alex's Calculator");
+            System.out.println("Welcome to Alex's Calculator");
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter first value: ");
             int First = sc.nextInt();
