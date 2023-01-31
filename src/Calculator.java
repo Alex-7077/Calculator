@@ -4,20 +4,36 @@ public class Calculator {
         public static void main (String[]args){
 
             System.out.println("Welcome to Alex's Calculator");
-            Scanner sc = new Scanner(System.in);
+            Scanner reader = new Scanner(System.in);
             System.out.print("Enter first value: ");
-            int First = sc.nextInt();
+            double First = reader.nextDouble();
 
-            System.out.print("\"Select operation e.g. \"+;-;/;*\"\"");
-            String Operation = sc.nextLine();
+            System.out.print("Select operation e.g. +;-;/;*;/. ");
+            String Operation = reader.nextLine();
 
             System.out.print(" ");
-            String OperationN = sc.nextLine();
+            String OperationN = reader.nextLine();
 
             System.out.print("Enter second value: ");
-            int Second = sc.nextInt();
+            double Second = reader.nextDouble();
+            char op;
+            double ans;
 
-            System.out.println("Result: " + First + " " + Operation + OperationN + " " + Second + " " + "=");
+            op = reader.next().charAt(0);
+
+            switch(op) {
+                case '+': ans = First + Second;
+                    break;
+                case '-': ans = First - Second;
+                    break;
+                case '*': ans = First * Second;
+                    break;
+                case '/': ans = First / Second;
+                    break;
+                default: System.out.printf("Error! Enter correct operator");
+                    return;
+            }
+            System.out.printf(First + " " + op + " " + Second + " = " + ans);
         }
     }
 
