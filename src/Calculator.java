@@ -1,40 +1,43 @@
 import java.util.Scanner;
-
 public class Calculator {
-        public static void main (String[]args){
-
-            System.out.println("Welcome to Alex's Calculator");
-            Scanner reader = new Scanner(System.in);
-            System.out.print("Enter first value: ");
-            double First = reader.nextDouble();
-
-            System.out.print("Select operation e.g. +;-;/;*;/. ");
-            String Operation = reader.nextLine();
-
-            System.out.print(" ");
-            String OperationN = reader.nextLine();
-
-            System.out.print("Enter second value: ");
-            double Second = reader.nextDouble();
-            char op;
-            double ans;
-
-            op = reader.next().charAt(0);
-
-            switch(op) {
-                case '+': ans = First + Second;
-                    break;
-                case '-': ans = First - Second;
-                    break;
-                case '*': ans = First * Second;
-                    break;
-                case '/': ans = First / Second;
-                    break;
-                default: System.out.printf("Error! Enter correct operator");
-                    return;
-            }
-            System.out.printf(First + " " + op + " " + Second + " = " + ans);
+    public static void main(String[] args) {
+        double First;
+        double Second;
+        double Result;
+        char Operation;
+        Scanner reader = new Scanner(System.in);
+       // Scanner sc = new Scanner(System.in);
+        // public void pressEnterToContinue();
+        System.out.println("Welcome to Alex's calculator!");
+        System.out.println("Press (Enter) to continue...");
+        try
+        {
+            System.in.read();
         }
+        catch(Exception e)
+        {}
+        System.out.print("Enter first value: ");
+        First = reader.nextDouble();
+        System.out.print("Select operator (+, -, *, /): ");
+        Operation = reader.next().charAt(0);
+        System.out.print("Enter second value: ");
+        Second = reader.nextDouble();
+        switch(Operation) {
+            case '+': Result = First + Second;
+                break;
+            case '-': Result = First - Second;
+                break;
+            case '*': Result = First * Second;
+                break;
+            case '/': Result = First / Second;
+                break;
+            default:;
+                return;
+
+
+        }
+        System.out.printf("Result: " + " " + First + " " + Operation + " " + Second + " = " + Result);
     }
+}
 
 
