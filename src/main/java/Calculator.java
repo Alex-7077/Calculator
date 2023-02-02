@@ -9,7 +9,6 @@ public class Calculator {
         double Result;
         char Operation;
         Scanner reader = new Scanner(System.in);
-        Scanner scnr = new Scanner(System.in);
 
         System.out.println("Welcome to Alex's calculator!");
         while (true) {
