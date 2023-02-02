@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15cf2dc7-cd21-4f0a-aa2a-4f44f98ad2eb" name="Changes" comment="maven">
+    <list default="true" id="15cf2dc7-cd21-4f0a-aa2a-4f44f98ad2eb" name="Changes" comment="work on mistakes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main.java.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="Calculator" />
@@ -46,8 +46,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Calculator" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.java.Calculator" />
         <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
@@ -131,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675341762982</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="work on mistakes">
+      <created>1675342116644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675342116644</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +162,7 @@
     <MESSAGE value="new version" />
     <MESSAGE value="last version" />
     <MESSAGE value="maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven" />
+    <MESSAGE value="work on mistakes" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on mistakes" />
   </component>
 </project>
