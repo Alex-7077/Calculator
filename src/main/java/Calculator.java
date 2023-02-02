@@ -8,7 +8,7 @@ public class Calculator {
         char Operation;
         Scanner reader = new Scanner(System.in);
         Scanner scnr = new Scanner(System.in);
-        // public void pressEnterToContinue();
+
         System.out.println("Welcome to Alex's calculator!");
         while (true) {
             System.out.println(" ...Press (Enter) to continue...");
